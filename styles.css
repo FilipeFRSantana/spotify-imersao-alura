@@ -45,8 +45,105 @@ h1 {
   color: #b3b3b3;
   text-decoration: none;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "DM Sans", sans-serif;
 }
 
+
+.library {
+  background-color: #121212;
+  min-block-size: 40px;
+  border-radius: 8px;
+  margin-top: 10px;
+  color: #b3b3b3;
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+  flex-direction: column;
+}
+
+.library .library__button {
+  margin-right: 10px;
+  color: #b3b3b3;
+  background-color: transparent;
+  border: 0px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "montserrat", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  padding: 20px 10px;
+  display: flex;
+}
+
+.library .library__button .fa {
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: 700;
+  padding-right: 8px;
+}
+
+.library__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.library .library__content .fa-plus {
+  margin: 24px 10px;
+}
+
+.section-playlist {
+  background-color: #242424;
+  align-items: flex-start;
+  border-radius: 8px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  min-block-size: 40px;
+  color: #b3b3b3;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 8px 0;
+  padding: 16px 20px;
+  box-sizing: border-box;
+}
+
+.section-playlist .section-playlist__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-playlist__content .text {
+  padding-bottom: 14px;
+  color: #fff;
+}
+
+.section-playlist__content .title {
+  font-weight: 700;
+}
+
+.section-playlist__content .subtitle {
+   font-weight: 500;
+   font-size: 0.8rem;
+}
+
+.section-playlist__content .section-playlist__button {
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 99px;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: none;
+  padding: 10px;
+  border: 0px;
+  width: 114px;
+  justify-content: center;
+  margin-top: 12px;
+}
 
