@@ -178,3 +178,47 @@ h1 {
   padding: 8px;
   border-radius: 20px;
 }
+
+.disclaimer-premium {
+  background: linear-gradient(to right, #ae2896, #509bf5); 
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "DM Sans", sans-serif;
+}
+
+.disclaimer-premium .text {
+  flex-shrink: 0;
+}
+
+.discleimer-premium-title {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.discleimer-premium-subtitle {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.disclaimer-premium__button button {
+  background-color: #fff;
+  border-radius: 40px;
+  border: 0;
+  color: #000;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  padding: 10px;
+}
+
