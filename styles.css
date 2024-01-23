@@ -198,7 +198,7 @@ h1 {
 .discleimer-premium-title {
   color: #fff;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 1000;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
@@ -218,7 +218,7 @@ h1 {
   flex-shrink: 0;
   font-size: 14px;
   font-family: "DM Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   padding: 10px;
 }
 
