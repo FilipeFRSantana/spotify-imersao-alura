@@ -22,18 +22,6 @@ function displayResults(result) {
   resultArtist.classList.remove("hidden");
 }
 
-// document.addEventListener("input", function () {
-//   const searchTerm = searchInput.value.toLowerCase();
-//   if (searchTerm === "") {
-//     resultPlaylist.classList.add("hidden");
-//     resultArtist.classList.remove("hidden");
-//     return;
-//   }
-
-//   requestApi(searchTerm);
-// });
-
-
 document.addEventListener("input", function () {
   const searchTerm = searchInput.value.toLowerCase();
   if (searchTerm === "") {
