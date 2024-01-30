@@ -1,7 +1,7 @@
 # Introduction
 
 This is a project to start the studies about HTML, CSS and JS.
-The main goal is create a website with my professional informations.
+The main goal is create a website with spotify home page. with API functionalities and responsiveness of elements on the screen
 
 # Preview
 
